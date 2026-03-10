@@ -1,0 +1,17 @@
+The following folder:
+
+G:\temp\annotated_dataset\annotated_dataset\annotated_dataset
+
+Contains ~5000 images, each with a .json file in the format used by Labelme:
+
+https://github.com/wkentaro/labelme/
+
+I want to render a set of sample images from this dataset, with annotations rendered on top of the source images.  I maintain a repository of open datasets of this type, so I'm looking for images that will look nice, and will also let me quickly confirm that the annotations are reasonable.  Figure out the format, scan the .json files, and choose 10 thumbnails to render from images that balance having large objects that will show up in a thumbnail and having a reasonable number of objects in the image (e.g., don't render images with zero objects).  
+
+Write output files at the original image resolution, to this folder (which you should create):
+
+g:\temp\bigbird-thumbnails
+
+Please work in Python.  Err on the side of writing scripts to disk, rather than making extensive use of python -c.  Write scripts to the current folder.  You are running in a conda environment; pip-install anything you need, but track dependencies in a requirements.txt file.
+
+I am not in a hurry; err on the side of asking me clarifying questions rather than guessing at my intentions.
