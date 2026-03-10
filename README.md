@@ -1,6 +1,6 @@
-# BigBird Annotation Thumbnails
+# Big Bird Annotation Thumbnails
 
-Renders sample annotated images from the [BigBird](https://huggingface.co/datasets/Big-Bird) drone-based bird detection dataset. Polygon annotations (in [Labelme](https://github.com/wkentaro/labelme/) format) are drawn on top of the source images with species labels.
+Renders sample annotated images from the [Big Bird](https://huggingface.co/datasets/Big-Bird) drone-based bird detection dataset. Polygon annotations (in [Labelme](https://github.com/wkentaro/labelme/) format) are drawn on top of the source images with species labels.
 
 ## Dataset
 
